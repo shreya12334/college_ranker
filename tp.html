@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            height: 200px;
+            width: 200px;
+            border: 3px solid pink;
+           margin-top: 80px;
+           margin-left: 600px;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            border: 3px solid black;
+            margin-top: -227px;
+    margin-left: 630px;
+    animation-name: shreya;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+        }
+
+@keyframes shreya {
+    from{
+        width: 0px;
+
+    }
+    to{
+        width: 100px;
+    }
+}
+        .box2 img{
+            height: 200px;
+            width: 200px;
+        }
+        .container{
+            width: 50px;
+            height: 40px;
+            background-color: aliceblue;
+            animation-name: title;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            display: flex;
+
+        }
+
+      .container  .headline{
+            margin-left: 500px;
+            margin-top: 25px;
+            background-color: black;
+            color: aliceblue;
+            
+        }
+
+        @keyframes title {
+            from{
+                width: 0;
+            }
+            to{
+                width: 100;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+
+    </div>
+    <div class="box2">
+        <img src="https://www.pngitem.com/pimgs/m/0-6243_user-profile-avatar-scalable-vector-graphics-icon-woman.png" alt="">
+
+    </div>
+    <div class="container">
+        <span class="headline">
+            HELLO I AM SHREYA
+        </span>
+    </div>
+
+</body>
+</html>

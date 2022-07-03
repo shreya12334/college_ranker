@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* body{
+    
+} */
+
+/* header */
+
+header nav{
+    background-color: #333;
+    height: 61px;
+    left: 0;
+    right: 0;
+    padding: 4px 0;
+    z-index: 200;
+    
+}
+
+header nav .nav-bar{
+    padding: 0px 15px;
+    
+}
+
+header nav .nav-bar ul{
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+header nav .nav-bar ul li{
+   padding: 12px 30px;
+   
+}
+
+header nav .nav-bar ul li a{
+    text-decoration: none;
+    position: relative;
+    color: #ffff;
+    letter-spacing: 3px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
+
+header nav .nav-bar ul li a::after{
+    content: "";
+    position: absolute;
+    background-color: #00FFFF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+header nav .nav-bar ul li a:hover{
+    color: #00FFFF;
+}
+
+header nav .nav-bar ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+header nav .nav-bar font{
+    font-size: 37px;
+    padding: 7px 10px;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    cursor: pointer;
+}
+
+header nav .nav-bar font:hover{
+    color: #00FFFF;
+}
+
+header .headline{
+    font-size: 45px;
+    color: #333;
+    margin-top: 216px;
+    margin-left: 45px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+header h3{
+    margin-left: 45px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: normal;
+}
+
+header button{
+    width: 116px;
+    height: 41px;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-top: 25px;
+    border: none;
+    background-color: #333;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: #777;
+}
+
+
+
+/* End of header section */
+
+/* Product Section */
+
+.card img:hover{
+    transform: scale(1.2);
+}
+
+.card .card-body .icons img{
+    cursor: pointer;
+}
+
+.card .card-body .icons img:hover{
+  transform: scale(1.2);
+
+}
+
+
